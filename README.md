@@ -1,24 +1,43 @@
-# README
+# Ruby on Rails Tutorial Exemplo de aplicação
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este é o exemplo de aplicativo para
+[* Ruby on Rails Tutorial:
+Aprenda o desenvolvimento da Web com Rails *] (http://www.railstutorial.org/)
+Por Michael Hartl (http://www.michaelhartl.com/).
 
-Things you may want to cover:
+## Licença
 
-* Ruby version
+Todo o código-fonte no [Ruby on Rails Tutorial] (http://railstutorial.org/)
+Está disponível em conjunto sob a Licença MIT e Licença Beerware. Vejo
+[LICENSE.md] (LICENSE.md) para obter detalhes.
 
-* System dependencies
+## Começando
 
-* Configuration
+Para começar a usar o aplicativo, clone o repo e, em seguida, instale as gemas necessárias:
 
-* Database creation
+-benzóico.
+$ Bundle install - sem produção
+-benzóico.
 
-* Database initialization
+Em seguida, migre o banco de dados:
 
-* How to run the test suite
+-benzóico.
+$ Rails db: migrate
+-benzóico.
 
-* Services (job queues, cache servers, search engines, etc.)
+Finalmente, execute o conjunto de testes para verificar se tudo está funcionando corretamente:
 
-* Deployment instructions
+-benzóico.
+Teste $ rails
+-benzóico.
 
-* ...
+Se o conjunto de teste for aprovado, você estará pronto para executar o aplicativo em um servidor local:
+
+-benzóico.
+$ Rails server
+-benzóico.
+
+Para obter mais informações, consulte o
+
+Para mais informações consulte:
+[*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
