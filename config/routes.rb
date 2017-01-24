@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
+  root 'static_pages#home'
   get 'static_pages/home'
-
   get 'static_pages/ajuda'
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  root 'application#ola'
+  get 'static_pages/sobre'
 end
